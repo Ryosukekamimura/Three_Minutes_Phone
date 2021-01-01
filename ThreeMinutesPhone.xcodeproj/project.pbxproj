@@ -11,6 +11,8 @@
 		92189688259F0B7A00BA1C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92189687259F0B7A00BA1C42 /* ContentView.swift */; };
 		9218968A259F0B7B00BA1C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92189689259F0B7B00BA1C42 /* Assets.xcassets */; };
 		9218968D259F0B7B00BA1C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9218968C259F0B7B00BA1C42 /* Preview Assets.xcassets */; };
+		92189699259F36FC00BA1C42 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92189698259F36FC00BA1C42 /* HomeView.swift */; };
+		9218969D259F37E900BA1C42 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218969C259F37E900BA1C42 /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		92189689259F0B7B00BA1C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9218968C259F0B7B00BA1C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9218968E259F0B7B00BA1C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92189698259F36FC00BA1C42 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9218969C259F37E900BA1C42 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		92189684259F0B7A00BA1C42 /* ThreeMinutesPhone */ = {
 			isa = PBXGroup;
 			children = (
+				92189697259F36E700BA1C42 /* View */,
 				92189685259F0B7A00BA1C42 /* ThreeMinutesPhoneApp.swift */,
 				92189687259F0B7A00BA1C42 /* ContentView.swift */,
 				92189689259F0B7B00BA1C42 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				9218968C259F0B7B00BA1C42 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92189697259F36E700BA1C42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92189698259F36FC00BA1C42 /* HomeView.swift */,
+				9218969C259F37E900BA1C42 /* MessageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9218969D259F37E900BA1C42 /* MessageView.swift in Sources */,
+				92189699259F36FC00BA1C42 /* HomeView.swift in Sources */,
 				92189688259F0B7A00BA1C42 /* ContentView.swift in Sources */,
 				92189686259F0B7A00BA1C42 /* ThreeMinutesPhoneApp.swift in Sources */,
 			);

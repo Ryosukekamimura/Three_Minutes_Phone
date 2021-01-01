@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init(){
+        UITabBar.appearance().backgroundColor = UIColor.blue
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            HomeView()
+                .tabItem {
+                    Image(systemName: "phone.fill")
+                    Text("しゃべる")
+                }
+            Text("つながる")
+                .tabItem{
+                    Image(systemName: "message.fill")
+                    Text("つながる")
+                }
+            Text("マイページ")
+                .tabItem{
+                    Image(systemName: "person.fill")
+                    Text("マイページ")
+                }
+        }
+        .accentColor(Color.red)
     }
 }
 
